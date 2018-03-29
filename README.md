@@ -25,12 +25,15 @@ finds lane lines example image
 
 My pipeline consisted of 3 steps:
 **Step 1:**, I converted the images to grayscale, and I Use Gaussian smoothing filtering, and I use Canny Edge Detect Lane Lines
+
 ![alt text][image3]
 
 **Step 2:**, I use a quadrilateral region mask to filter out detected line segments in image.
+
 ![alt text][image4]
 
 **Step 3:**, Use Hough Transform to Find Lane Lines on Edge Detected Image
+
 ![alt text][image5]
 
 ### 2. Identify potential shortcomings with your current pipeline
